@@ -6,3 +6,6 @@ The Cervical Cancer Predictor is the one that currently works :D. It has a three
 The main training code is in the file "cervical_cancer_classifier_copy.py". The three png images in the folder show training graphs and results. We achieved an accuracy of ~96% on the test set. We hope to make this into a full scale web application and Android application with a much more comprehensive database of diseases. 
 
 
+![accuracy_cervical_cancer_predictor](https://github.com/akhil1508/Cervical_Cancer_Prediction_and_much_more/blob/master/accuracy_cervical.png?raw=true)
+
+![error_cervical_cancer_predictor](https://github.com/akhil1508/Cervical_Cancer_Prediction_and_much_more/blob/master/loss_cervical.png?raw=true)

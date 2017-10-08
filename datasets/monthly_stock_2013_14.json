@@ -1,0 +1,11 @@
+--2017-10-07 13:49:26--  https://data.gov.in/node/135621/datastore/export/json
+Resolving data.gov.in (data.gov.in)... 164.100.83.161
+Connecting to data.gov.in (data.gov.in)|164.100.83.161|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/json]
+Saving to: ‘json.1’
+
+     0K                                                        20.3K=0.05s
+
+2017-10-07 13:49:26 (20.3 KB/s) - ‘json.1’ saved [984]
+

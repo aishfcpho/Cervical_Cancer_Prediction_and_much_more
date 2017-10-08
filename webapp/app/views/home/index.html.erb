@@ -1,0 +1,42 @@
+<h1 class = "text-center">Your User Data</h1>
+<% if @user_data %>%
+<% else %>
+    <%= form_for(@user_data, :url => user_data_path) do |f| %>
+      <%= f.number_field :age %>
+      <%= f.number_field  :number_of_sexual_partners %>
+      <%= f.number_field :first_sexual_intercourse_age %>
+      <%= f.number_field :number_of_pregnancies %>
+      <%= f.number_field :smokes %>
+      <%  f.number_field :smokes_years %>
+      <%  f.number_field :hormonal_contraceptives %>
+         :hormonal_contraceptives_years
+       :iud
+       :iud_years
+       :stds
+       :stds_number
+       :stds_condylomatosis
+       :cervical_condylomatosis
+       :vaginal_condylomatosis
+       :vulvo_perineal_condylomatosis
+       :syphilis
+       :pelvic_inflammatory
+       :genetic_herpes
+       :molluscum_contagiosum
+       :aids
+       :hiv
+       :hepatitis_b
+       :hpv
+       :number_of_diagnosis
+       :time_since_first_diagnosis
+       :time_since_last_diagnosis
+       :cancer
+       :cin
+       :hpv
+       :dx
+       :hinselmann
+       :schiller
+       :citology
+       :biopsy
+
+     <% end %>
+<% end %>

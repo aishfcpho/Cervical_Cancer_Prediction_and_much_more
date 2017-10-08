@@ -1,0 +1,65 @@
+[
+    {
+        "layer_name": "dense_1",
+        "weight_name": "dense_1/kernel:0",
+        "offset": 0,
+        "length": 10500,
+        "shape": [
+            35,
+            300
+        ],
+        "type": "float32"
+    },
+    {
+        "layer_name": "dense_1",
+        "weight_name": "dense_1/bias:0",
+        "offset": 42000,
+        "length": 300,
+        "shape": [
+            300
+        ],
+        "type": "float32"
+    },
+    {
+        "layer_name": "dense_2",
+        "weight_name": "dense_2/kernel:0",
+        "offset": 43200,
+        "length": 45000,
+        "shape": [
+            300,
+            150
+        ],
+        "type": "float32"
+    },
+    {
+        "layer_name": "dense_2",
+        "weight_name": "dense_2/bias:0",
+        "offset": 223200,
+        "length": 150,
+        "shape": [
+            150
+        ],
+        "type": "float32"
+    },
+    {
+        "layer_name": "dense_3",
+        "weight_name": "dense_3/kernel:0",
+        "offset": 223800,
+        "length": 150,
+        "shape": [
+            150,
+            1
+        ],
+        "type": "float32"
+    },
+    {
+        "layer_name": "dense_3",
+        "weight_name": "dense_3/bias:0",
+        "offset": 224400,
+        "length": 1,
+        "shape": [
+            1
+        ],
+        "type": "float32"
+    }
+]

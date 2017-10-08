@@ -1,0 +1,2 @@
+class LowerBack < ApplicationRecord
+end

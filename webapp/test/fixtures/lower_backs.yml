@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pelvic_incidence: 9.99
+  pelvic_tilt: 9.99
+  lumbar_lordosis_angle: 9.99
+  sacral_slope: 9.99
+  pelvic_radius: 9.99
+  degree_spondylolisthesis: 9.99
+  pelvic_slope: 9.99
+  Direct_tilt: 9.99
+  thoracic_slope: 9.99
+  cervical_tilt: 9.99
+  sacrum_angle: 9.99
+  scoliosis_slope: 9.99
+  outcome: MyString
+
+two:
+  pelvic_incidence: 9.99
+  pelvic_tilt: 9.99
+  lumbar_lordosis_angle: 9.99
+  sacral_slope: 9.99
+  pelvic_radius: 9.99
+  degree_spondylolisthesis: 9.99
+  pelvic_slope: 9.99
+  Direct_tilt: 9.99
+  thoracic_slope: 9.99
+  cervical_tilt: 9.99
+  sacrum_angle: 9.99
+  scoliosis_slope: 9.99
+  outcome: MyString

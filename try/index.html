@@ -1,0 +1,37 @@
+<head>
+    <script src="./dist/keras.js"></script>
+</head>
+
+<body>
+    <script src="./dist/keras.js"></script>
+    <script>
+        const model = new KerasJS.Model({
+            filepaths: {
+                model: '../cervical_cancer_model.json',
+                weights: '../Cervical_cancer_weights_weights.buf',
+                metadata: '../Cervical_cancer_weights_metadata.json'
+            },
+            gpu : false
+        })
+        model.ready()
+        .then(() => {
+          // input data object keyed by names of the input layers
+          // or `input` for Sequential models
+          // values are the flattened Float32Array data
+          // (input tensor shapes are specified in the model config)
+          const inputData = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+            console.log(model.predict(inputData))
+          // make predictions
+          return model.predict(inputData)
+        })
+        .then(outputData => {
+          // outputData is an object keyed by names of the output layers
+          // or `output` for Sequential models
+          // e.g.,
+          // outputData['fc1000']
+        })
+        .catch(err => {
+          // handle error
+        })
+    </script>
+</body>
